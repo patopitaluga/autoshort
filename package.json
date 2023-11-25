@@ -1,0 +1,17 @@
+{
+  "name": "autoshort",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20.3.1",
+    "npm": ">=9.6.7"
+  },
+  "description": "Utility to automate stock operations.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cron": "^3.1.6",
+    "dotenv": "^16.3.1"
+  }
+}
