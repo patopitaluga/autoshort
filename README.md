@@ -27,7 +27,7 @@ import { AutoShort } from './autoshort.js';
 
 const mySession = new AutoShort({
   username: 'myemail',
-  password: 'mypassword'
+  password: 'mypassword',
   apiUrl: 'the api url',
   verbose: true, // Useful while developing.
 });
