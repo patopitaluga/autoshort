@@ -7,12 +7,12 @@ Utility to automate stock operations.
 ## Setup
 
 1. Clone repository
-```
+```console
 git clone https://github.com/patopitaluga/autoshort.git
 ```
 
 2. Install dependencies
-```
+```console
 npm install
 ```
 
@@ -22,7 +22,7 @@ npm install
 
 ## Usage
 
-```
+```javascript
 import { AutoShort } from './autoshort.js';
 
 const mySession = new AutoShort({

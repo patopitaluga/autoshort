@@ -64,6 +64,7 @@ export class AutoShort {
       await new Promise((resolve) => setTimeout(() => resolve()), 1000);
     }
 
+    if (this.verbose) console.log(`Getting information for: ${stockName}`);
     const stockInfoResult = await fetch(`${this.apiUrl}/api/v1/markets/tickers/${stockName}?segment=C`, {
       headers: {
         'Authorization': `Bearer ${this.access_token}`,
